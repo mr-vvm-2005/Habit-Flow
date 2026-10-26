@@ -1,0 +1,48 @@
+import {
+  Activity,
+  BookOpen,
+  CheckCircle2,
+  Code2,
+  Coffee,
+  Dumbbell,
+  Flame,
+  Heart,
+  Languages,
+  Moon,
+  Music,
+  Smile,
+  Sparkles,
+  Sun,
+  Target,
+  Zap,
+} from 'lucide-react';
+
+export const HABIT_ICONS = [
+  { id: 'check-circle', label: 'Checkmark', icon: CheckCircle2 },
+  { id: 'activity', label: 'Activity', icon: Activity },
+  { id: 'book-open', label: 'Reading', icon: BookOpen },
+  { id: 'code', label: 'Coding', icon: Code2 },
+  { id: 'dumbbell', label: 'Fitness', icon: Dumbbell },
+  { id: 'heart', label: 'Health', icon: Heart },
+  { id: 'languages', label: 'Languages', icon: Languages },
+  { id: 'sun', label: 'Morning', icon: Sun },
+  { id: 'moon', label: 'Evening', icon: Moon },
+  { id: 'coffee', label: 'Coffee', icon: Coffee },
+  { id: 'flame', label: 'Energy', icon: Flame },
+  { id: 'zap', label: 'Focus', icon: Zap },
+  { id: 'target', label: 'Goal', icon: Target },
+  { id: 'music', label: 'Music', icon: Music },
+  { id: 'smile', label: 'Mindset', icon: Smile },
+  { id: 'sparkles', label: 'Creativity', icon: Sparkles },
+];
+
+export const HABIT_COLORS = [
+  { id: '#244C3A', label: 'Forest Green' },
+  { id: '#18372B', label: 'Deep Forest' },
+  { id: '#7FA58A', label: 'Sage Green' },
+  { id: '#C77B5B', label: 'Terracotta' },
+  { id: '#3B82F6', label: 'Ocean Blue' },
+  { id: '#8B5CF6', label: 'Royal Purple' },
+  { id: '#EC4899', label: 'Rose Pink' },
+  { id: '#F59E0B', label: 'Amber Gold' },
+];
